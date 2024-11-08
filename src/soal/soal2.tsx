@@ -23,6 +23,7 @@ const data = [
 ];
 
 function Soal2() {
+    // buatlah select box tanpa menggunakan plugin
     console.log(data)
     
   return (
