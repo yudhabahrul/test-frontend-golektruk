@@ -6,6 +6,7 @@ import {
   createBrowserRouter,
   RouterProvider,
 } from "react-router-dom";
+import Soal2 from './soal/soal2.tsx';
 
 const router = createBrowserRouter([
   {
@@ -30,7 +31,7 @@ const router = createBrowserRouter([
   },
   {
     path: "/soal2",
-    element: null,
+    element: <Soal2/>,
   },
   {
     path: "/soal3",
