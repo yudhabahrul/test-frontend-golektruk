@@ -23,18 +23,31 @@ const Soal4 = () => {
   return (
     <div
       style={{
-        color: 'white',
-        fontSize: '1.5em',
-        textAlign: 'center',
-        fontFamily: 'sans-serif',
+        display: 'flex',
+        minHeight: '100vh',
       }}>
-      <h1
+      <div
         style={{
-          fontWeight: 'bolder',
+          flexGrow: 1,
+          color: 'white',
+          fontSize: '1.5em',
+          textAlign: 'center',
+          fontFamily: 'sans-serif',
         }}>
-        Pokémon Infinite Scroll
-      </h1>
-      {/* list pokemon beserta loading */}
+        <h1
+          style={{
+            fontWeight: 'bolder',
+          }}>
+          Pokémon Infinite Scroll
+        </h1>
+        {/* list pokemon beserta loading */}
+      </div>
+      <iframe
+        src='/soal4.mp4'
+        style={{
+          height: '100vh',
+          border: '1px solid white',
+        }}></iframe>
     </div>
   )
 }
