@@ -2,7 +2,7 @@ import { useState } from "react";
 import ReactDOM from "react-dom";
 
 const Soal5 = () => {
-  // 5. buatlah fungsi ketika modal akan menutup ketika tombol browser back diklik
+  // 5. buatlah fungsi untuk menutup modal ketika tombol back browser diklik
   const [openModal, setOpenModal] = useState<boolean>(false);
 
   return (
