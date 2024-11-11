@@ -48,7 +48,7 @@ function SeachComponent() {
       setResult(data);
     }
 
-    if (search) fetchData();
+    if (search.id.trim()) fetchData();
   }, [search]);
 
   return (
